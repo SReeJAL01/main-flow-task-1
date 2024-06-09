@@ -1,0 +1,48 @@
+# Creating a list
+my_list = [1, 2, 3]
+print("Original list:", my_list)
+
+# Adding elements to the list
+my_list.append(4)
+print("List after adding an element:", my_list)
+
+# Removing elements from the list
+my_list.remove(2)
+print("List after removing an element:", my_list)
+
+# Modifying elements in the list
+my_list[1] = 5
+print("List after modifying an element:", my_list)
+
+# Creating a dictionary
+my_dict = {"a": 1, "b": 2, "c": 3}
+print("Original dictionary:", my_dict)
+
+# Adding elements to the dictionary
+my_dict["d"] = 4
+print("Dictionary after adding an element:", my_dict)
+
+# Removing elements from the dictionary
+del my_dict["b"]
+print("Dictionary after removing an element:", my_dict)
+
+# Modifying elements in the dictionary
+my_dict["c"] = 5
+print("Dictionary after modifying an element:", my_dict)
+
+# Creating a set
+my_set = {1, 2, 3}
+print("Original set:", my_set)
+
+# Adding elements to the set
+my_set.add(4)
+print("Set after adding an element:", my_set)
+
+# Removing elements from the set
+my_set.remove(2)
+print("Set after removing an element:", my_set)
+
+# Sets do not support modifying elements directly, but you can remove and add elements
+my_set.remove(3)
+my_set.add(5)
+print("Set after modifying an element by removing and adding:", my_set)
